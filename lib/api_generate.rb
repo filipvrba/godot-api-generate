@@ -12,10 +12,6 @@ module ApiGenerate
     return @json_api.db
   end
 
-  def get_arguments_str(name, type)
-    "#{name} #{ V.get_type_transmite(type) }"
-  end
-
   def get_functions_for_v(api)
     result = []
     api.each do |fn, _|

@@ -1,0 +1,1 @@
+fn C.godot_pluginscript_register_language(language_desc &C.godot_pluginscript_language_desc)

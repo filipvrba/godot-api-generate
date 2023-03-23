@@ -7,12 +7,12 @@ module ApiGenerate
       ]
       TYPES = [
         'bool',
-        'string',
+        'string',  # 1
 
         'i8',
         'i16',
         'int',
-        'i64',
+        'i64',  # 5
 
         'u8',
         'u16',
@@ -31,6 +31,7 @@ module ApiGenerate
         '&byte',
         '&char',
         '&&char',
+        '&voidptr',
       ]
     end
   end
